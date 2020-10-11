@@ -1,0 +1,19 @@
+Package: templateDesigner
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Andrea",
+           family = "McEwan",
+           role = c("aut", "cre"),
+           email = "andrea.h.mcewan@gmail.com")
+Description: Generates a donor oligo based on a sequence and insert for use in small DNA insertions
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    stringi
+Depends: 
+    R (>= 2.10)
